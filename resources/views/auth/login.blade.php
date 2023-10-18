@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layoutsSign.master')
 
 
 @section('login')

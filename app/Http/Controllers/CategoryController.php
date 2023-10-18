@@ -12,15 +12,6 @@ class CategoryController extends Controller
      * Display a listing of the resource.
      */
 
-    // protected $category;
-    // protected $categoryService;
-
-    // public function __construct(Category $category, )
-    // {
-    //     $this->category = $category;
-    //     $this->middleware('auth');
-    // }
-
     public function index()
     {
         $categories = Category::get();

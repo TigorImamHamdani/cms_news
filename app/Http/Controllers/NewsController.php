@@ -13,19 +13,10 @@ class NewsController extends Controller
     /**
      * Display a listing of the resource.
      */
-    // protected $new;
-    // protected $newService;
-
-    // public function __construct(News $new, )
-    // {
-    //     $this->new = $new;
-    //     $this->middleware('auth');
-    // }
 
     public function index()
     {
-        $news = Category::find('id')->news;
-        dd($news);
+        $news = News::get();
         return view('admin.news.index', compact('news'));
     }
     /**

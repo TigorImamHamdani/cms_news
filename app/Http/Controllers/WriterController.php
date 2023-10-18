@@ -11,14 +11,6 @@ class WriterController extends Controller
     /**
      * Display a listing of the resource.
      */
-    // protected $writer;
-    // protected $writerService;
-
-    // public function __construct(Writer $writer, )
-    // {
-    //     $this->writer = $writer;
-    //     $this->middleware('auth');
-    // }
 
     public function index()
     {
